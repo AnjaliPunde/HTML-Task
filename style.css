@@ -1,0 +1,110 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+    background-color: rgb(125, 180, 228);
+    border-bottom: 2px solid black;
+}
+
+footer
+{
+    background-color: rgb(125, 180, 228);
+    border-top: 2px solid black;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headings {
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.inputfield {
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 4px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+    :focus {
+        color: #212529;
+        background-color: #fff;
+        border-color: #86b7fe;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+    }
+}
+
+.buttonstyle {
+    cursor: pointer;
+    outline: 0;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #0d6efd;
+    border-color: #0d6efd;
+
+
+}
+
+.heading
+{
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#link
+{
+    padding: 15 px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3;
+    /* Darker blue */
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+* {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
